@@ -23,7 +23,7 @@ class NavHeader extends HTMLElement {
                                     <li class="menu_list"><a href="#" class="menu_links">BLOG</a></li>
                                     <li class="menu_list"><a href="#" class="menu_links">ZONES</a></li>
                                     <li class="menu_list"><a href="#" class="menu_links">EVENTS</a></li>
-                                    <li class="menu_list"><a href="../contact.html" class="menu_links">CONTACT US</a></li>
+                                    <li class="menu_list"><a href="../nccfrivers_front_dev/contact.html" class="menu_links">CONTACT US</a></li>
                                 </ul>
                                 <div class="denote">
                                     <a href="" class="denote_btn">DONATE</a>

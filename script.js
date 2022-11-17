@@ -24,7 +24,7 @@ const navLinks = document.querySelectorAll(".menu_links");
 
 function linkAction() {
     navMenu.classList.remove("show-menu")
-    navToggle.style.display = "block";
+    // navToggle.style.display = "block";
 }
 navLinks.forEach(n => n.addEventListener('click', linkAction))
 

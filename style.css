@@ -43,7 +43,6 @@ ul {
     line-height: 30px;
     color: #FFFFFF;
     background: #033407;
-    /* padding: 14.5px 48px; */
     width: 100%;
     display: flex;
     height: 100%;
@@ -394,7 +393,6 @@ nav {
 .road_map {
     background: #F3F3F3;
     padding-top: 18px;
-    /* padding-bottom: 100px; */
 }
 .road_map .title {
     font-family: 'Poppins';
@@ -558,7 +556,6 @@ nav {
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
-    /* line-height: 48px; */
     text-align: center;
     color: #FFFFFF;
     padding: 154px 0px 64px;
@@ -582,8 +579,6 @@ nav {
     background-color: #fff;
 }
 .blog .container {
-    /* display: flex;
-    justify-content: space-between; */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     column-gap: 20px;
@@ -606,8 +601,6 @@ nav {
     align-items: center;
     padding-bottom: 99px;
     background-position: center;
-    /* background-origin: border-box;
-    background-size: contain; */
     background-repeat: no-repeat;
 }
 .blog .main .image .text h3 {
@@ -733,10 +726,6 @@ footer .container .title .text  h1 {
     color: #FFFFFF;
 }
 .footer_links {
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    padding-left: 130px;
-    gap: 30px; */
     row-gap: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -822,8 +811,6 @@ footer .container .title .text  h1 {
     border: 2px solid rgba(150, 150, 150, 0.11);
 }
 
-/* @media only screen and (max-width: 1000px) and (min-width: 950px)  {
-} */
 
 @media only screen and (max-width: 1134px) {
     .blog .container {
@@ -846,18 +833,6 @@ footer .container .title .text  h1 {
         display: none;
     }
 }
-/* @media only screen and (max-width: 832px) {
-    .logo .img1, .logo .img2 {
-        width: 30px; 
-        height: 40px;
-    }
-    .logo .img2 {
-        left: 18px;
-    }
-    .nav_container a, .denote_btn {
-        font-size: 12px;
-    }
-} */
 @media only screen and (max-width: 900px) {
     .logo .img1, .logo .img2 {
         width: 30px; 
@@ -919,7 +894,7 @@ footer .container .title .text  h1 {
     .nav_container .nav_menu_item {
         position: absolute;
         right: 0px;
-        max-width: 90%;
+        max-width: 100%;
         width: 100%;
         margin: 0 auto;
         background-color: #00000087;

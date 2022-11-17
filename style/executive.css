@@ -27,6 +27,7 @@
 }
 .leaders .heading p span {
     font-weight: 300;
+    font-size: 20px;
 }
 
 .leaders .excecutive_details {
@@ -156,5 +157,11 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
+    }
+    .excecutive_details .user:nth-child(2n - 2) .image{
+        order: 1;
+    }
+    .excecutive_details .user:nth-child(2n - 2) .details{
+        order: 2;
     }
 }

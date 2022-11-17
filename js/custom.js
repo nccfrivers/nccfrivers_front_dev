@@ -1,7 +1,5 @@
 
 
-
-
 class NavHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -19,8 +17,8 @@ class NavHeader extends HTMLElement {
                         <div class="nav_menu_item" id="nav_menu_item">
                             <div class="nav_menu">
                                 <ul class="menu">
-                                    <li class="menu_list"><a href="../index.html" class="menu_links active">HOME</a></li>
-                                    <li class="menu_list"><a href="../about.html" class="menu_links">ABOUT US</a></li>
+                                    <li class="menu_list"><a href="../nccfrivers_front_dev/index.html" class="menu_links active">HOME</a></li>
+                                    <li class="menu_list"><a href="../nccfrivers_front_dev/about.html" class="menu_links">ABOUT US</a></li>
                                     <li class="menu_list"><a href="#" class="menu_links">GALLARY</a></li>
                                     <li class="menu_list"><a href="#" class="menu_links">BLOG</a></li>
                                     <li class="menu_list"><a href="#" class="menu_links">ZONES</a></li>

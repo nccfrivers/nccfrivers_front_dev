@@ -247,6 +247,9 @@ nav {
 
 .address {
     overflow-x: -moz-hidden-unscrollable;
+    max-width: 90%;
+    width: 100%;
+    margin: 0px auto;
 }
 .address .swiper1 {
     position: relative;

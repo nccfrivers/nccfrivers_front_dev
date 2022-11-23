@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,600&display=swap');
+
 @font-face {
     font-family: "Seaweed Script";
     src: url(./seaweed/SeaweedScript-Regular.ttf);
@@ -691,6 +693,7 @@ nav {
 /* map */
 .map {
     background-color: #fff;
+    padding-top: 50px;
 }
 .map img{
     padding-top: 81px;

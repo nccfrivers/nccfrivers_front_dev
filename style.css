@@ -24,6 +24,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: black;
+    overflow: hidden;
 }
 button {
     cursor: pointer;
@@ -607,6 +608,7 @@ nav {
     padding-bottom: 99px;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
 }
 .blog .main .image .text h3 {
     font-family: 'Poppins';
@@ -625,12 +627,18 @@ nav {
     text-align: center;
     color: #FFFFFF;
 }
+.blog .other {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 .blog .other .title {
     display: flex;
     justify-content: space-between;
     line-height: 48px;
     align-items: center;
     padding: 20px 0px;
+    width: 100%;
 }
 .blog .other .title .heading1 {
     font-family: 'Poppins';
@@ -651,6 +659,13 @@ nav {
 .blog .other .blog_item {
     display: flex;
     gap: 20px;
+}
+.blog .other .blog_item img {
+    max-width: 238px;
+    width: 100%;
+}
+.blog .other .blog_item .blog_item_content {
+    padding: 0px 20px 0px 0px;
 }
 .blog .other .blog_item .blog_item_content p {
     font-family: 'Poppins';

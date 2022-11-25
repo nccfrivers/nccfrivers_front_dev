@@ -250,7 +250,7 @@
 /* About */
 
 .about_home {
-    background: linear-gradient(0deg, rgb(8, 18, 9, 0.8), rgb(8, 18, 9, 0.8)), url(../img/about_home.png);
+    background: linear-gradient(0deg, rgb(8, 18, 9, 0.8), rgb(8, 18, 9, 0.8)), url(../img/about.png);
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: center;

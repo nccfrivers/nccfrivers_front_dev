@@ -17,13 +17,13 @@ class NavHeader extends HTMLElement {
                         <div class="nav_menu_item" id="nav_menu_item">
                             <div class="nav_menu">
                                 <ul class="menu">
-                                    <li class="menu_list"><a href="/index.html" class="menu_links active">HOME</a></li>
-                                    <li class="menu_list"><a href="/about.html" class="menu_links">ABOUT US</a></li>
-                                    <li class="menu_list"><a href="/executive.html" class="menu_links">EXCOS</a></li>
+                                    <li class="menu_list"><a href="/nccfrivers_front_dev/index.html" class="menu_links active">HOME</a></li>
+                                    <li class="menu_list"><a href="/nccfrivers_front_dev/about.html" class="menu_links">ABOUT US</a></li>
+                                    <li class="menu_list"><a href="/nccfrivers_front_dev/executive.html" class="menu_links">EXCOS</a></li>
                                     <li class="menu_list"><a href="#" class="menu_links">BLOG</a></li>
-                                    <li class="menu_list"><a href="/zone.html" class="menu_links">ZONES</a></li>
+                                    <li class="menu_list"><a href="/nccfrivers_front_dev/zone.html" class="menu_links">ZONES</a></li>
                                     <li class="menu_list"><a href="#" class="menu_links">EVENTS</a></li>
-                                    <li class="menu_list"><a href="/contact.html" class="menu_links">CONTACT US</a></li>
+                                    <li class="menu_list"><a href="/nccfrivers_front_dev/contact.html" class="menu_links">CONTACT US</a></li>
                                 </ul>
                                 <div class="denote">
                                     <a href="" class="denote_btn">DONATE</a>
@@ -56,13 +56,14 @@ class NavFooter extends HTMLElement {
             </div>
             <div class="footer_links">
                 <ul class="menu">
-                    <li class="menu_list"><a href="#" class="menu_links active">HOME</a></li>
-                    <li class="menu_list"><a href="#" class="menu_links">ABOUT US</a></li>
-                    <li class="menu_list"><a href="#" class="menu_links">GALLARY</a></li>
+                    <li class="menu_list"><a href="/nccfrivers_front_dev/index.html" class="menu_links active">HOME</a></li>
+                    <li class="menu_list"><a href="/nccfrivers_front_dev/about.html" class="menu_links">ABOUT US</a></li>
+                    <li class="menu_list"><a href="/nccfrivers_front_dev/executive.html" class="menu_links">EXCOS</a></li>
                     <li class="menu_list"><a href="#" class="menu_links">BLOG</a></li>
-                    <li class="menu_list"><a href="#" class="menu_links">ZONES</a></li>
+                    <li class="menu_list"><a href="/nccfrivers_front_dev/executive.html" class="menu_links">ZONES</a></li>
                     <li class="menu_list"><a href="#" class="menu_links">EVENTS</a></li>
-                    <li class="menu_list"><a href="#" class="menu_links">CONTACT US</a></li>
+                    <li class="menu_list"><a href="/nccfrivers_front_dev/contact.html" class="menu_links">CONTACT US</a></li>
+                    
                 </ul>
                 <div class="contact">
                     <p class="cont_us">CONTACT US</p>
@@ -73,19 +74,19 @@ class NavFooter extends HTMLElement {
                 <div class="socials">
                     <div class="social_link">
                         <img src="./img/instagram_colored.png" alt="" srcset="">
-                        <p>instagram</p>
+                        <p>Instagram</p>
                     </div>
                     <div class="social_link">
                         <img src="./img/facebook_colored.png" alt="" srcset="">
-                        <p>facebook</p>
+                        <p>Facebook</p>
                     </div>
                     <div class="social_link">
                         <img src="./img/twitter_colored.png" alt="" srcset="">
-                        <p>twitter</p>
+                        <p>Twitter</p>
                     </div>
                     <div class="social_link">
                         <img src="./img/youtube-icon_colored.png" alt="" srcset="">
-                        <p>Youtube</p>
+                        <p>YouTube</p>
                     </div>
                 </div>
             </div>

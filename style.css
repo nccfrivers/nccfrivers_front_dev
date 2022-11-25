@@ -602,9 +602,9 @@ nav {
     /* display: flex; */
     flex-wrap: wrap;
 }
-.blog .main {
+/* .blog .main {
     /* width: 50%; */
-}
+/*} */ 
 .blog .main h2 {
     font-family: 'Poppins';
     font-style: normal;

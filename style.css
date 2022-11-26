@@ -525,19 +525,28 @@ nav {
     background-position: center;
     background-size: cover;
 }
-.unit .card .publicity {
+.unit .publicity {
     background-image: url(./img/unit_img.png);
 }
-.unit .card .tos {
+.unit .tos {
     background-image: url(./img/Building.jpg);
 }
-.unit .card .choir {
+.unit .choir {
     background-image: url(./img/ruggae_gallery.png);
 }
-.unit .card .medical {
+.unit .medical {
     background-image: url(./img/Pa_Elton.png);
 }
-.unit .card .ushering {
+.unit .ushering {
+    background-image: url(./img/Pa_Elton.png);
+}
+.unit .drama {
+    background-image: url(./img/Pa_Elton.png);
+}
+.unit .ventures {
+    background-image: url(./img/Pa_Elton.png);
+}
+.unit .evangelism {
     background-image: url(./img/Pa_Elton.png);
 }
 .unit .card .text h3 {

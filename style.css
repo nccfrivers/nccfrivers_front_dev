@@ -516,13 +516,29 @@ nav {
     padding-top: 30px;
 }
 .unit .card {
-    background: url(./img/unit_img.png) no-repeat;
+    background-blend-mode: multiply;
+    background-color: darkslategrey;
     width: 500px;
     padding-left: 36px;
     padding-right: 30px;
     border-radius: 10px;
     background-position: center;
     background-size: cover;
+}
+.unit .card .publicity {
+    background-image: url(./img/unit_img.png);
+}
+.unit .card .tos {
+    background-image: url(./img/Building.jpg);
+}
+.unit .card .choir {
+    background-image: url(./img/ruggae_gallery.png);
+}
+.unit .card .medical {
+    background-image: url(./img/Pa_Elton.png);
+}
+.unit .card .ushering {
+    background-image: url(./img/Pa_Elton.png);
 }
 .unit .card .text h3 {
     font-family: 'Poppins';

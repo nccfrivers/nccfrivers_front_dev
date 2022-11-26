@@ -20,7 +20,7 @@ class NavHeader extends HTMLElement {
                                     <li class="menu_list"><a href="/nccfrivers_front_dev/index.html" class="menu_links active">HOME</a></li>
                                     <li class="menu_list"><a href="/nccfrivers_front_dev/about.html" class="menu_links">ABOUT US</a></li>
                                     <li class="menu_list"><a href="/nccfrivers_front_dev/executive.html" class="menu_links">EXCOS</a></li>
-                                    <li class="menu_list"><a href="#" class="menu_links">BLOG</a></li>
+                                    <li class="menu_list"><a href="/nccfrivers_front_dev/units.html" class="menu_links">UNITS</a></li>
                                     <li class="menu_list"><a href="/nccfrivers_front_dev/zone.html" class="menu_links">ZONES</a></li>
                                     <li class="menu_list"><a href="#" class="menu_links">EVENTS</a></li>
                                     <li class="menu_list"><a href="/nccfrivers_front_dev/contact.html" class="menu_links">CONTACT US</a></li>
@@ -59,8 +59,8 @@ class NavFooter extends HTMLElement {
                     <li class="menu_list"><a href="/nccfrivers_front_dev/index.html" class="menu_links active">HOME</a></li>
                     <li class="menu_list"><a href="/nccfrivers_front_dev/about.html" class="menu_links">ABOUT US</a></li>
                     <li class="menu_list"><a href="/nccfrivers_front_dev/executive.html" class="menu_links">EXCOS</a></li>
-                    <li class="menu_list"><a href="#" class="menu_links">BLOG</a></li>
-                    <li class="menu_list"><a href="/nccfrivers_front_dev/executive.html" class="menu_links">ZONES</a></li>
+                    <li class="menu_list"><a href="/nccfrivers_front_dev/units.html" class="menu_links">UNITS</a></li>
+                    <li class="menu_list"><a href="/nccfrivers_front_dev/zone.html" class="menu_links">ZONES</a></li>
                     <li class="menu_list"><a href="#" class="menu_links">EVENTS</a></li>
                     <li class="menu_list"><a href="/nccfrivers_front_dev/contact.html" class="menu_links">CONTACT US</a></li>
                     

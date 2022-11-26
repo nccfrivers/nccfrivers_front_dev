@@ -28,6 +28,7 @@ function linkAction() {
 }
 navLinks.forEach(n => n.addEventListener('click', linkAction))
 
+/* Animation function */
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
   

@@ -182,18 +182,6 @@
         },
         {
             "id": 16,
-            "post": "ASS. MUSIC DIRECTOR",
-            "name": "Okwori Irma Ehi",
-            "origin": "Benue State",
-            "university": "University of Agriculture, Makurdi",
-            "course": "Accounting",
-            "DOB": "16th November",
-            "Abbr": "Okwori Irma",
-            "image": "./img/Exec/AMD.png",
-            "position": "left"
-        },
-        {
-            "id": 17,
             "post": "ASS. TRANSPORT AND ORGANIZING SECRETARY",
             "name": "Achi Lazarus Oluwatobiloba",
             "origin": "Benue State",
@@ -202,10 +190,10 @@
             "DOB": "24th April",
             "Abbr": "Achi Lazarus",
             "image": "./img/Exec/A_TOS.png",
-            "position": "right"
+            "position": "left"
         },
         {
-            "id": 18,
+            "id": 17,
             "post": "ASS. SISTERS'/WELFARE COORDINATOR",
             "name": "Babayemi Oluwatosin",
             "origin": "Ekiti State",
@@ -214,10 +202,10 @@
             "DOB": "18th November",
             "Abbr": "Babayemi Oluwatosin",
             "image": "./img/Exec/ASM.png",
-            "position": "left"
+            "position": "right"
         },
         {
-            "id": 19,
+            "id": 18,
             "post": "ASS. EVANGELISM SECRETARY",
             "name": "Nwekenta Jachimma Chika",
             "origin": "Anambra State",
@@ -226,8 +214,20 @@
             "DOB": "15th February",
             "Abbr": "Nwekenta Jahchimma",
             "image": "./img/Exec/A_Evan.png",
+            "position": "left"
+        },
+        {
+            "id": 19,
+            "post": "ASS. MUSIC DIRECTOR",
+            "name": "Okwori Irma Ehi",
+            "origin": "Benue State",
+            "university": "University of Agriculture, Makurdi",
+            "course": "Accounting",
+            "DOB": "16th November",
+            "Abbr": "Okwori Irma",
+            "image": "./img/Exec/AMD.png",
             "position": "right"
-        }
+        },
     ]
     
 }

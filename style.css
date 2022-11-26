@@ -526,28 +526,36 @@ nav {
     background-size: cover;
 }
 .unit .publicity {
-    background-image: url(./img/unit_img.png);
+    background-image: url(img/unit/banner/publicity.jpg);
+    background-size: cover;
 }
 .unit .tos {
     background-image: url(./img/Building.jpg);
+    background-size: cover;
 }
 .unit .choir {
-    background-image: url(./img/ruggae_gallery.png);
+    background-image: url(img/unit/banner/choir.JPG);
+    background-size: cover;
 }
 .unit .medical {
-    background-image: url(./img/Pa_Elton.png);
+    background-image: url(img/unit/banner/medical.JPG);
+    background-size: cover;
 }
 .unit .ushering {
-    background-image: url(./img/Pa_Elton.png);
+    background-image: url(img/unit/banner/tos.JPG);
+    background-size: cover;
 }
 .unit .drama {
-    background-image: url(./img/Pa_Elton.png);
+    background-image: url(img/unit/banner/drama.JPG);
+    background-size: cover;
 }
 .unit .ventures {
-    background-image: url(./img/Pa_Elton.png);
+    background-image: url(img/unit/banner/ventures.JPG);
+    background-size: cover;
 }
 .unit .evangelism {
-    background-image: url(./img/Pa_Elton.png);
+    background-image: url(img/unit/banner/evangelism.jpg);
+    background-size: cover;
 }
 .unit .card .text h3 {
     font-family: 'Poppins';

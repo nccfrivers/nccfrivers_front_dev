@@ -15,7 +15,6 @@
     gap: 50px;
 }
 .card .bg {
-    background-image: url(../img/unit/banner/units.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,6 +22,12 @@
     justify-content: center;
     align-items: center;
     height: 300px;
+}
+.card .publicity {
+    background-image: url(img/unit/banner/publicity-big.jpg);
+}
+.card .choir {
+    background-image: url(img/unit/banner/choir-big.JPG);
 }
 .card .bg h2 {
     font-family: 'Poppins';

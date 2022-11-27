@@ -23,10 +23,10 @@
     align-items: center;
     height: 300px;
 }
-.card .publicity {
+.bg .publicity {
     background-image: url(img/unit/banner/publicity-big.jpg);
 }
-.card .choir {
+.bg.choir {
     background-image: url(img/unit/banner/choir-big.JPG);
 }
 .card .bg h2 {

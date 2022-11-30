@@ -438,6 +438,9 @@
     padding-left: 100px;
     padding-top: 45px;
     padding-bottom: 50px;
+    max-width: 90%;
+    width: 100%;
+    margin: 0px auto;
 }
 .ruggae .content .quote {
     display: flex;
@@ -644,6 +647,12 @@
     }
     .ruggae .quote .para1 {
         font-size: 40px;
+    }
+    .ruggae .rural_text, .ruggae .purpose {
+        padding: 20px 20px 30px 0px;
+    }
+    .ruggae .content {
+        padding-left: 50px;
     }
     .home .content{
         align-items: center;

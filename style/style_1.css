@@ -432,6 +432,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 .ruggae .content {
     padding-left: 100px;
@@ -442,6 +443,8 @@
     display: flex;
     flex-direction: column;
     gap: 74px;
+    position: relative;
+    width: 90%;
 }
 .ruggae .rural_text, .ruggae .purpose {
     background: rgba(53, 53, 53, 0.71);
@@ -636,6 +639,12 @@
     }
 }
 @media only screen and (max-width: 768px) {
+    .ruggae .quote .para2 {
+        font-size: 20px;
+    }
+    .ruggae .quote .para1 {
+        font-size: 40px;
+    }
     .home .content{
         align-items: center;
         padding-top: 200px;
@@ -649,6 +658,9 @@
     .body .content .origin .text h2,
     .body .content .origin .text h3 {
         text-align: center;
+    }
+    .body .content .origin .text h3 {
+        font-size: 35px;
     }
     .map .map_content .note .house_img {
         display: none;

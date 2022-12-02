@@ -21,21 +21,6 @@ const db = getFirestore();
 const blogCol = collection(db, 'blog')
 const contactCol = collection(db, 'contact')
 
-//? Getting documents
-getDocs(blogCol).then((snapshot) => {
-    let blogPosts = []
-    snapshot.docs.forEach((doc) => {
-        blogPosts.push({ ...doc.data, id: doc.id })
-        console.log(doc.id)
-        console.log(doc.value)
-        console.log('doc.data.title')
-    })
-    console.log(blogPosts)
-})
-    .catch(err => {
-        console.log(err.message)
-    })
-
 //? Getting Contact documents
 getDocs(contactCol).then((snapshot) => {
     let contactDetails = []

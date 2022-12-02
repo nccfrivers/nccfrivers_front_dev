@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,14 @@
     This is the Cave of Adullam, where men are built for the outside world.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NCCF Rivers - Executives</title>
-    <link rel="apple-touch-icon" href="img/nccf_lo_img.png"/>
+    <link rel="apple-touch-icon" href="img/nccf_lo_img.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="img/nccf_lo_img.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./style/style_1.css">
     <link rel="stylesheet" href="./style/executive.css">
 </head>
+
 <body>
 
     <!-- Header -->
@@ -32,12 +34,13 @@
     <section class="leaders">
         <div class="container reveal">
             <div class="heading">
-                <h1>Called  to Lead</h1>
+                <h1>Called to Lead</h1>
                 <p>“You don't have to hold a position in order to be a leader.” <br>
-                    <span>- Henry Ford, founder of the Ford Motor Company</span></p>
+                    <span>- Henry Ford, founder of the Ford Motor Company</span>
+                </p>
             </div>
 
-            <div class="excecutive_details" id="excecutive_details"></div>
+            <div class="executive_details" id="executive_details"></div>
         </div>
     </section>
 
@@ -54,10 +57,10 @@
         let course = "";
         let dob = "";
         fetch('executive.json')
-        .then(response => response.json())
-        .then(json => {
-            json.executive.forEach(executive => {
-                let user = `
+            .then(response => response.json())
+            .then(json => {
+                json.executive.forEach(executive => {
+                    let user = `
                 <div class="user">
                     <div class="image">
                         <img src=${executive.image} alt="excos picture" srcset="">
@@ -76,15 +79,16 @@
                 </div>
                 `
 
-                document.getElementById('excecutive_details').innerHTML += user
+                    document.getElementById('executive_details').innerHTML += user
 
-                // let position2 = ${executive.position}
-                // console.log(position2);
-                // list += `<li>${executive.name}</li>`
-                // name = document.getElementsByClassName("name");
-                // name.innerHTML = `${executive.name}`;
-            });
-        })
+                    // let position2 = ${executive.position}
+                    // console.log(position2);
+                    // list += `<li>${executive.name}</li>`
+                    // name = document.getElementsByClassName("name");
+                    // name.innerHTML = `${executive.name}`;
+                });
+            })
     </script>
 </body>
+
 </html>

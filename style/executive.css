@@ -30,7 +30,7 @@
     font-size: 20px;
 }
 
-.leaders .excecutive_details {
+.leaders .executive_details {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -38,24 +38,24 @@
     column-gap: 10px;
     padding-bottom: 71px;
 }
-.leaders .excecutive_details .user {
+.leaders .executive_details .user {
     display: flex;
     gap: 20px;
     align-items: center;
     max-width: max-content;
 }
-.leaders .excecutive_details .user .image {
+.leaders .executive_details .user .image {
     max-width: 200px;
     width: 100%;
 }
-.leaders .excecutive_details .user .image img {
+.leaders .executive_details .user .image img {
     width: 100%;
 }
-.leaders .excecutive_details .user .details {
+.leaders .executive_details .user .details {
     max-width: 270px;
     width: 100%;
 }
-.leaders .excecutive_details .user .details h3 {
+.leaders .executive_details .user .details h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -63,17 +63,17 @@
     line-height: 30px;
     color: #000000;
 }
-.leaders .excecutive_details .user .details .detail {
+.leaders .executive_details .user .details .detail {
     padding: 6px 0px 39px;
 }
-.leaders .excecutive_details .user .details .detail p {
+.leaders .executive_details .user .details .detail p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
 }
-.leaders .excecutive_details .user .details .abbr {
+.leaders .executive_details .user .details .abbr {
     font-family: 'Seaweed Script';
     font-style: normal;
     font-weight: 400;
@@ -82,7 +82,7 @@
     text-align: justify;
 }
 
-.excecutive_details .user:nth-child(2n - 2) .image{
+.executive_details .user:nth-child(2n - 2) .image{
     order: 2;
 }
 
@@ -133,44 +133,44 @@
 }
 
 @media only screen and (max-width: 1095px) {
-    .leaders .excecutive_details .user .image {
+    .leaders .executive_details .user .image {
         max-width: 190px;
     }
-    .leaders .excecutive_details .user .details {
+    .leaders .executive_details .user .details {
         width: 100%;
         max-width: 200px;
     }
-    .leaders .excecutive_details .user .details h3 {
+    .leaders .executive_details .user .details h3 {
         font-size: 18px;
     }
-    .leaders .excecutive_details .user .details .detail {
+    .leaders .executive_details .user .details .detail {
         padding: 6px 0px 25px;
     }
 }
 @media only screen and (max-width: 925px) {
-    .leaders .excecutive_details .user .details {
+    .leaders .executive_details .user .details {
         width: 100%;
         max-width: 180px;
     }
 }
 @media only screen and (max-width: 920px) {
-    .leaders .excecutive_details .user .details .detail {
+    .leaders .executive_details .user .details .detail {
         padding: 6px 10px 15px 0px;
     }
 }
 @media only screen and (max-width: 880px) {
-    .leaders .excecutive_details {
+    .leaders .executive_details {
         justify-content: center;
     }
-    .leaders .excecutive_details .user {
+    .leaders .executive_details .user {
         max-width: 100%;
         justify-content: space-between;
         width: 100%;
     }
-    .leaders .excecutive_details .user .image {
+    .leaders .executive_details .user .image {
         max-width: 300px;
     }
-    .leaders .excecutive_details .user .details {
+    .leaders .executive_details .user .details {
         max-width: 300px;
     }
 }
@@ -189,27 +189,27 @@
     }
 }
 @media only screen and (max-width: 500px) {
-    .leaders .excecutive_details .user {
+    .leaders .executive_details .user {
         flex-direction: column;
     }
-    .leaders .excecutive_details .user .details {
+    .leaders .executive_details .user .details {
         text-align: center;
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
-    .leaders .excecutive_details .user .details .abbr {
+    .leaders .executive_details .user .details .abbr {
         text-align: center;
     }
-    .leaders .excecutive_details .user .details .detail {
+    .leaders .executive_details .user .details .detail {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
-    .excecutive_details .user:nth-child(2n - 2) .image{
+    .executive_details .user:nth-child(2n - 2) .image{
         order: 1;
     }
-    .excecutive_details .user:nth-child(2n - 2) .details{
+    .executive_details .user:nth-child(2n - 2) .details{
         order: 2;
     }
 }

@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "firebase": "^9.14.0"
+  },
+  "name": "nccfrivers_front_dev",
+  "version": "1.0.0",
+  "description": "NCCF Website",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaramolaD/nccfrivers_front_dev.git"
+  },
+  "author": "NCCF Rivers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaramolaD/nccfrivers_front_dev/issues"
+  },
+  "homepage": "https://github.com/DaramolaD/nccfrivers_front_dev#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  }
+}

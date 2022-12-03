@@ -29,7 +29,8 @@ function getlist() {
                 <div class="blog_item">
                             <img src="./img/blog_img_small.png" alt="image" srcset="">
                             <div class="blog_item_content">
-                                <p class="blogcontent">${bob['body']}</p>
+                                <p class="blogcontent" overflow: hidden;
+                                text-overflow: ellipsis;>${bob['body']}</p>
                                 </div>
                                 <button>Learn More</button>
                             </div>

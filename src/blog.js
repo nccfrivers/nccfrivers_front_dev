@@ -5,6 +5,17 @@ const db = getFirestore();
 const blogCol = collection(db, 'blog')
 let blogs = []
 
+function shortenText(string) {
+    let shortText = string
+    if (shortText.length > 75) {
+        shortText = shortText.substring(0, 75);
+        console.log("Shortened text")
+        shortText = shortText + '...'
+    }
+    console.log("Not Shortened text")
+    return shortText
+}
+
 //? Getting Contact documents
 getDocs(blogCol).then((snapshot) => {
     console.log(document.URL)
@@ -12,8 +23,8 @@ getDocs(blogCol).then((snapshot) => {
         blogs.push({ ...doc.data(), id: doc.id })
         console.log(doc.data()['title'])
     })
-    document.getElementById('blogtitleone').innerHTML = blogs[0]['title']
-    document.getElementById('blogbodyone').innerHTML = blogs[0]['body'][0]
+    document.getElementById('blogtitleone').innerHTML = shortenText(blogs[0]['title'])
+    document.getElementById('blogbodyone').innerHTML = shortenText(blogs[0]['body'][0])
     console.log('The Full List is ' + blogs)
     console.log(blogs[0])
     getlist();
@@ -25,12 +36,20 @@ getDocs(blogCol).then((snapshot) => {
 function getlist() {
     blogs.shift();
     blogs.map((bob) => {
+        let shortText = bob['body'][0]
+        console.log("WATCH OUT " + bob['body'][0])
+        console.log("WATCH IN" + shortText)
+        if (shortText.length > 75) {
+            shortText = shortText.substring(0, 75);
+            console.log("Shortened text")
+        }
+        shortText = shortText + '...'
         let bloging = `
                 <div class="blog_item">
                             <img src="./img/blog_img_small.png" alt="image" srcset="">
                             <div class="blog_item_content">
                                 <p class="blogcontent" overflow: hidden;
-                                text-overflow: ellipsis;>${bob['body']}</p>
+                                text-overflow: ellipsis;>${shortenText(bob['body'][0])}</p>
                                 </div>
                                 <button>Learn More</button>
                             </div>

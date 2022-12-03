@@ -18,12 +18,12 @@ initializeApp(firebaseConfig);
 
 // initialize firebase db and collection
 const db = getFirestore();
-const blogCol = collection(db, 'blog')
 const contactCol = collection(db, 'contact')
 
 //? Getting Contact documents
 getDocs(contactCol).then((snapshot) => {
     let contactDetails = []
+    console.log(document.URL)
     snapshot.docs.forEach((doc) => {
         contactDetails.push({ ...doc.data, id: doc.id })
     })
@@ -33,27 +33,30 @@ getDocs(contactCol).then((snapshot) => {
         console.log(err.message)
     })
 
-//? Adding a document
-const addContactForm = document.getElementById("contactusform")
+//? Adding a document (CHANGE THIS LINK TO THE ORIGINAL ONE)
+if (document.URL == 'https://jeremiahseun-zany-bassoon-vrv7j6qrr4jfp44q-5500.preview.app.github.dev/contact.html') {
+    const addContactForm = document.getElementById("contactusform")
 
-addContactForm.addEventListener("submit", (e) => {
-    e.preventDefault()
-    console.log(addContactForm.name.value)
-    console.log(addContactForm.phone.value)
-    addDoc(contactCol, {
-        name: addContactForm.name.value,
-        phone: addContactForm.phone.value,
-        email: addContactForm.email.value,
-        message: addContactForm.message.value,
-    })
-        .then((docRef) => {
-            e.preventDefault()
-            // addContactForm.reset()
-            console.log("Form added up success")
-            console.log("Document written with ID: ", docRef.id);
-        }).catch((err) => {
-            e.preventDefault()
-            console.log(err.message)
-            console.error("Error adding document: ", err);
+    addContactForm.addEventListener("submit", (e) => {
+        e.preventDefault()
+        console.log(addContactForm.name.value)
+        console.log(addContactForm.phone.value)
+        addDoc(contactCol, {
+            name: addContactForm.name.value,
+            phone: addContactForm.phone.value,
+            email: addContactForm.email.value,
+            message: addContactForm.message.value,
         })
-});
+            .then((docRef) => {
+                e.preventDefault()
+                window.alert("Details submitted successfully")
+                addContactForm.reset()
+                console.log("Form added up success")
+                console.log("Document written with ID: ", docRef.id);
+            }).catch((err) => {
+                e.preventDefault()
+                console.log(err.message)
+                console.error("Error adding document: ", err);
+            })
+    });
+}

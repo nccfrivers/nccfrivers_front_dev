@@ -80,12 +80,14 @@ ul {
 /* resuables */
 
 nav {
-    height: auto;
+    width: 100%;
     background-color: black;
     padding: 8px 0px;
     position: fixed;
-    width: 100%;
+    display: flex;
     z-index: 100;
+    top: 0;
+    left: 0
 }
 
 .nav_container {
@@ -164,6 +166,29 @@ nav {
 }
 
 /* welcome_page */
+
+.back-video {
+    position: absolute;
+    background-color: #EFC132;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
 
 .welcome_page {
     height: auto;

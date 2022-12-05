@@ -1,8 +1,9 @@
-import { getFirestore, collection, getDocs } from 'firebase/firestore';
+import { getFirestore, query, orderBy, collection, getDocs } from 'firebase/firestore';
 
 // initialize firebase db and collection
 const db = getFirestore();
 const blogCol = collection(db, 'blog')
+const orderBlogs = query(blogCol, orderBy("date", "desc"))
 let blogs = []
 
 function shortenText(string) {
@@ -16,8 +17,8 @@ function shortenText(string) {
     return shortText
 }
 
-//? Getting Contact documents
-getDocs(blogCol).then((snapshot) => {
+//? Getting Lists of Blogs
+getDocs(orderBlogs).then((snapshot) => {
     console.log(document.URL)
     snapshot.docs.forEach((doc) => {
         blogs.push({ ...doc.data(), id: doc.id })
@@ -41,6 +42,9 @@ getDocs(blogCol).then((snapshot) => {
         console.log(err.message)
     })
 
+//? TODO Getting a particular blog content
+
+//? Getting the blog items
 function getlist() {
     blogs.shift(); // THIS FUNCTION REMOVES THE FIRST ITEM IN THE LIST
     blogs.slice(0, 3).map((bob) => {
@@ -57,7 +61,7 @@ function getlist() {
                             <img src="./img/blog_img_small.png" alt="image" srcset="">
                             <div class="blog_item_content">
                                 <p class="blogcontent" overflow: hidden;
-                                text-overflow: ellipsis;>${shortenText(bob['body'][0])}</p>
+                                text-overflow: ellipsis;>${shortenText(bob['body'][0] + ' ' + bob['body'][1])}</p>
                                 </div>
                             </div>
                         </div>

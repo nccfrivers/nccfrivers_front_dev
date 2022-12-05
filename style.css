@@ -175,7 +175,7 @@ nav {
 
 .back-video {
     position: absolute;
-    background-color: #EFC132;
+    background-color: #000000;
     right: 0;
     bottom: 0;
     z-index: -1;
@@ -1047,6 +1047,22 @@ footer .container .title .text h1 {
     border: 2px solid rgba(150, 150, 150, 0.11);
 }
 
+
+@media only screen and (max-width: 1600px) {
+    .blog .container {
+        /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .blog .main {
+        width: 50%;
+    }
+
+    .blog .other {
+        width: 50%;
+    }
+}
 
 @media only screen and (max-width: 1300px) {
     .blog .container {

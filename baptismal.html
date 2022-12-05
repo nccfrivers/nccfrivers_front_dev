@@ -7,11 +7,12 @@
     <meta name="description" content="A one big family, bound by the love of Christ and humanity.
     This is the Cave of Adullam, where men are built for the outside world.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NCCF Rivers - Blog | Baptismal</title>
+    <title>NCCF Rivers - Blog | </title>
     <link rel="apple-touch-icon" href="img/nccf_lo_img.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="img/nccf_lo_img.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./style/blog.css">
+    <link rel="stylesheet" href="./swiper/package/swiper-bundle.css">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
     <section class="baptismal">
         <div class="container">
             <div class="title">
-                <h1>BAPTISMAL RUGGED</h1>
+                <h1 class="singleblogtitle" id="singleblogtitle"></h1>
             </div>
             <div class="content">
                 <img src="./img/Reggae_Youtube_bd_img.png" alt="" srcset="">
@@ -135,6 +136,13 @@
 
     <!-- footer -->
     <nav-footer></nav-footer>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const greetingValue = urlParams.get('title');
+        console.log("The title is " + greetingValue);
+        document.getElementById('singleblogtitle').innerHTML += greetingValue.toString();
+    </script>
 
     <script src="./js/custom.js"></script>
     <script src="./dist/bundle.js"></script>

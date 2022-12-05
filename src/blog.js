@@ -23,8 +23,16 @@ getDocs(blogCol).then((snapshot) => {
         blogs.push({ ...doc.data(), id: doc.id })
         console.log(doc.data()['title'])
     })
-    document.getElementById('blogtitleone').innerHTML = shortenText(blogs[0]['title'])
-    document.getElementById('blogbodyone').innerHTML = shortenText(blogs[0]['body'][0])
+    let titleBlog = `
+    <a class="blogPost" href="./baptismal.html?title=${blogs[0]['title']}"><div class="image">
+    <div class="text">
+        <h3 id="blogtitleone" class="title">${shortenText(blogs[0]['title'])}</h3>
+        <p id="blogbodyone">${shortenText(blogs[0]['body'][0])}</p>
+            </div>
+        </div>
+    </a>
+            `
+    document.getElementById('bigblogpost').innerHTML = titleBlog
     console.log('The Full List is ' + blogs)
     console.log(blogs[0])
     getlist();
@@ -34,8 +42,8 @@ getDocs(blogCol).then((snapshot) => {
     })
 
 function getlist() {
-    blogs.shift();
-    blogs.map((bob) => {
+    blogs.shift(); // THIS FUNCTION REMOVES THE FIRST ITEM IN THE LIST
+    blogs.slice(0, 3).map((bob) => {
         let shortText = bob['body'][0]
         console.log("WATCH OUT " + bob['body'][0])
         console.log("WATCH IN" + shortText)
@@ -45,34 +53,16 @@ function getlist() {
         }
         shortText = shortText + '...'
         let bloging = `
-                <div class="blog_item">
+        <a class="blogPost" href="./baptismal.html?title=${bob['title']}"> <div class="blog_item">
                             <img src="./img/blog_img_small.png" alt="image" srcset="">
                             <div class="blog_item_content">
                                 <p class="blogcontent" overflow: hidden;
                                 text-overflow: ellipsis;>${shortenText(bob['body'][0])}</p>
                                 </div>
-                                <button>Learn More</button>
                             </div>
                         </div>
+                        </a>
                 `
         document.getElementById('blog_items').innerHTML += bloging
     })
-    // fetch(blogs)
-    //     .then(response => response.json())
-    //     .then(json => {
-    //         json.blogs.forEach(blogls => {
-    //             console.log("The list of blogs new is" + blogls)
-    //             let bloging = `
-    //             <div class="blog_item">
-    //                         <img src="./img/blog_img_small.png" alt="image" srcset="">
-    //                         <div class="blog_item_content">
-    //                             <p class="blogcontent">${blogls['body']}</p>
-    //                             </div>
-    //                             <button>Learn More</button>
-    //                         </div>
-    //                     </div>
-    //             `
-    //             document.getElementById('blog_items').innerHTML += bloging
-    //         })
-    //     })
 }

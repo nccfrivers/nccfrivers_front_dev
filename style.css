@@ -37,6 +37,12 @@ button {
     cursor: pointer;
 }
 
+a.blogPost:hover {
+    background-color: rgb(223, 225, 227);
+    transition: ease-in-out;
+    transition-duration: 300ms;
+}
+
 /* resuables */
 
 a {
@@ -1117,6 +1123,22 @@ footer .container .title .text h1 {
 }
 
 @media only screen and (max-width: 768px) {
+    .blog .container {
+        /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .blog .main {
+        width: 100%;
+    }
+
+    .blog .other {
+        width: auto;
+
+    }
+
+    /* */
     .about .content {
         flex-direction: column;
     }

@@ -1,0 +1,194 @@
+.support, .health, .cds, .more, .note {
+    background: #fff;
+    padding-top: 50px;
+}
+
+.support .support_content  {
+    display: flex;
+    align-items: flex-start;
+}
+.support .support_content .img {
+    position: relative;
+    display: flex;
+    width: 50%;
+}
+.support .support_content .img img {
+    max-width: 428px;
+    width: 100%;
+}
+.support .support_content .img .img2 {
+    position: relative;
+    transform: translateY(100px) translateX(-50px);
+}
+.support .support_content .text {
+    width: 50%;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+.support .support_content .text h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    text-align: right;
+    color: #04560C;
+}
+.support .support_content .text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    color: #444444;
+    padding: 17px 0px 34px;
+}
+button {
+    background: #04560C;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+button:hover {
+    background-color: #fff;
+    color: #04560C;
+    border: 1px solid #04560C;
+}
+
+.denote_content h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #04560C;
+    align-self: flex-start;
+    padding-bottom: 30px;
+}
+.denote_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.denote_content .images-cont {
+    display: flex;
+    gap: 2%;
+    width: 100%;
+}
+.denote_content .images-cont .images, .denote_content .images-cont .img-big {
+    width: 50%;
+}
+.denote_content .images-cont .images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2%;
+    align-items: stretch;
+}
+.denote_content .images-cont .images img {
+    width: 100%;
+}
+.cds .denote_content .cds_images_cont {
+    display: grid;
+    position: relative;
+    width: 100%;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.cds .denote_content .image-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+.cds .denote_content .image-cont .image {
+    background-image: url(../img/denote_img/cds_big.png);
+    width: 100%;
+    background-size: cover;
+    height: 282px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-position: center;
+}
+.cds .denote_content .image-cont .image:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/denote_img/cds_big.png);
+    background-size: cover;
+}
+.cds .denote_content .image-cont .image:hover p{
+    top: 0px;
+}
+.cds .denote_content .image-cont .image p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    width: 190px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    position: relative;
+}
+.cds .denote_content .image-cont .title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.note {
+    padding-bottom: 75px;
+}
+.note .denote_content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #444444;
+}
+.note .denote_content h2 {
+    align-self: center;
+    padding: 20px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .denote_content .images-cont {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .denote_content .images-cont .images, .denote_content .images-cont .img-big {
+        width: 100%;
+    }
+    .support .support_content {
+        flex-direction: column;
+        gap: 150px;
+    }
+    .support .support_content .img, .support .support_content .text {
+        width: 100%;
+        align-items: center;
+    }
+    .support .support_content .text p {
+        text-align: center;
+    }
+    .support .support_content .text h1 {
+        text-align: center;
+    }
+}

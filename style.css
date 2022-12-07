@@ -76,7 +76,7 @@ ul {
     color: var(--primary-color30);
 }
 
-.denote_btn {
+.donate_btn {
     border: 2px solid #033E08;
     padding: 10px 20px;
     background-color: transparent;
@@ -1100,7 +1100,7 @@ footer .container .title .text h1 {
         gap: 25px;
     }
 
-    .denote_btn {
+    .donate_btn {
         padding: 10px;
     }
 }
@@ -1128,7 +1128,7 @@ footer .container .title .text h1 {
     }
 
     .nav_container a,
-    .denote_btn {
+    .donate_btn {
         font-size: 12px;
     }
 

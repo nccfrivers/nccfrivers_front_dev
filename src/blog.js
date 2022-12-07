@@ -25,7 +25,7 @@ getDocs(orderBlogs).then((snapshot) => {
         console.log(doc.data()['title'])
     })
     let titleBlog = `
-    <a class="blogPost" href="./baptismal.html?title=${blogs[0]['title']}"><div class="image">
+    <a class="blogPost" href="./baptismal.html?title=${blogs[0]['title']}&id=${blogs[0]['id']}"><div class="image">
     <div class="text">
         <h3 id="blogtitleone" class="title">${shortenText(blogs[0]['title'])}</h3>
         <p id="blogbodyone">${shortenText(blogs[0]['body'][0])}</p>
@@ -42,7 +42,6 @@ getDocs(orderBlogs).then((snapshot) => {
         console.log(err.message)
     })
 
-//? TODO Getting a particular blog content
 
 //? Getting the blog items
 function getlist() {
@@ -57,7 +56,7 @@ function getlist() {
         }
         shortText = shortText + '...'
         let bloging = `
-        <a class="blogPost" href="./baptismal.html?title=${bob['title']}"> <div class="blog_item">
+        <a class="blogPost" href="./baptismal.html?title=${bob['title']}&id=${blogs[0]['id']}"> <div class="blog_item">
                             <img src="./img/blog_img_small.png" alt="image" srcset="">
                             <div class="blog_item_content">
                                 <p class="blogcontent" overflow: hidden;

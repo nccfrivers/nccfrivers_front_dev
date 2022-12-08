@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A one big family, bound by the love of Christ and humanity.
+    <meta name="keywords"
+        content="NCCF, NCCF HOME, NCCF IN NIGERIA, NCCF NEAR ME, CHURCH NEAR ME, CHURCH IN PORT HARCOURT, SALVATION, IF IT IS NOT RURAL, NYSC, NYSC RIVERS, NYSC RIVERS STATE, NCCF FACEBOOK, RIVERS, RIVERS CORPER, CORPER, CORPERS, NONWA, GBAM TAI, TAI, NONWA GBAM TAI, NYSC CAMP, NYSC ORIENTATION CAMP, NCCF RIVERS, NCCF RIVERS STATE CHAPTER">
+    <meta name="description" content="This is NCCF Rivers State. We are a one big family, bounded by the love of Christ and humanity.
     This is the Cave of Adullam, where men are built for the outside world.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NCCF Rivers - Homepage</title>
-    <link rel="apple-touch-icon" href="img/nccf_lo_img.png"/>
+    <link rel="apple-touch-icon" href="img/nccf_lo_img.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="img/nccf_lo_img.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="./style.css">
@@ -26,7 +28,44 @@
 <body>
 
     <!-- Header -->
-    <nav-header></nav-header>
+    <header>
+        <nav>
+            <div class="nav_container container">
+                <div class="logo">
+                    <img class="img1" src="./img/nccf_logo.png" alt="NCCF logo">
+                    <img class="img2" src="./img/nysc_logo.png" alt="NYSC logo" srcset="">
+                </div>
+                <!-- toggle btn -->
+                <div class="nav-toggle" id="nav-toggle">
+                    <img class="menu" src="./icon/Menu2.svg" alt="image">
+                </div>
+                <div class="nav_menu_item" id="nav_menu_item">
+                    <div class="nav_menu">
+                        <ul class="menu">
+                            <li class="menu_list"><a href="/index.html" class="menu_links active">HOME</a></li>
+                            <li class="menu_list"><a href="/about.html" class="menu_links">ABOUT US</a></li>
+                            <li class="menu_list"><a href="/executive.html" class="menu_links">EXCOS</a></li>
+                            <li class="menu_list"><a href="/units.html" class="menu_links">UNITS</a></li>
+                            <li class="menu_list"><a href="/zone.html" class="menu_links">ZONES</a></li>
+                            <li class="menu_list"><a href="#" class="menu_links">EVENTS</a></li>
+                            <li class="menu_list"><a href="/contact.html" class="menu_links">CONTACT US</a></li>
+                        </ul>
+                        <div class="donate">
+                            <a href="" class="donate_btn">DONATE</a>
+                        </div>
+                    </div>
+                    <div class="nav-close" id="nav-close">
+                        <img src="./icon/close.svg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    //? THE VIDEO SHOULD BE CHANGED
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="./img/video.mp4" alt="NCCF in a video" type="video/mp4">
+    </video>
 
     <main>
 
@@ -49,7 +88,8 @@
                             alt="YouTube" srcset=""></a>
                     <a href="https://www.instagram.com/nccf_rivers/"><img src="./img/instagram.png" alt="Instagram"
                             srcset=""></a>
-                    <a href=""><img src="./img/facebook.png" alt="Facebook" srcset=""></a>
+                    <a href="https://www.facebook.com/NCCFRIVERS"><img src="./img/facebook.png" alt="Facebook"
+                            srcset=""></a>
                 </div>
             </div>
         </section>
@@ -289,77 +329,15 @@
         <section class="blog">
             <div class="container reveal">
                 <div class="main">
-                    <h2 class="title">Blog </h2>
-                    <div class="image">
-                        <div class="text">
-                            <h3 class="title">Baptismal Rugged</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore</p>
-                        </div>
-                    </div>
+                    <h2 class="title">Blog</h2>
+                    <div id="bigblogpost"></div>
                 </div>
                 <div class="other">
                     <div class="title">
                         <h3 class="heading1">Newest</h3>
-                        <h3 class="heading2">August</h3>
-                        <h3 class="heading2">July</h3>
                     </div>
 
-                    <div class="blog_items">
-                        <div class="blog_item">
-                            <img src="./img/blog_img_small.png" alt="image" srcset="">
-                            <div class="blog_item_content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore</p>
-                                <div class="clicks">
-                                    <div class="likes">
-                                        <img src="./img/likes.png" alt="image" srcset="">
-                                        <span>162</span>
-                                    </div>
-                                    <div class="comment">
-                                        <img src="./img/comment.png" alt="image" srcset="">
-                                        <span>162</span>
-                                    </div>
-                                </div>
-                                <button>Learn More</button>
-                            </div>
-                        </div>
-                        <div class="blog_item">
-                            <img src="./img/blog_img_small.png" alt="image" srcset="">
-                            <div class="blog_item_content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore</p>
-                                <div class="clicks">
-                                    <div class="likes">
-                                        <img src="./img/likes.png" alt="image" srcset="">
-                                        <span>162</span>
-                                    </div>
-                                    <div class="comment">
-                                        <img src="./img/comment.png" alt="image" srcset="">
-                                        <span>162</span>
-                                    </div>
-                                </div>
-                                <button>Learn More</button>
-                            </div>
-                        </div>
-                        <div class="blog_item">
-                            <img src="./img/blog_img_small.png" alt="image" srcset="">
-                            <div class="blog_item_content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore</p>
-                                <div class="clicks">
-                                    <div class="likes">
-                                        <img src="./img/likes.png" alt="image" srcset="">
-                                        <span>162</span>
-                                    </div>
-                                    <div class="comment">
-                                        <img src="./img/comment.png" alt="image" srcset="">
-                                        <span>162</span>
-                                    </div>
-                                </div>
-                                <button>Learn More</button>
-                            </div>
-                        </div>
+                    <div class="blog_items" id="blog_items">
                     </div>
                 </div>
             </div>
@@ -377,11 +355,67 @@
     </main>
 
     <!-- footer -->
-    <nav-footer></nav-footer>
+    <footer>
+        <section class="footer_container container">
+            <div class="title">
+                <div class="logo">
+                    <img class="img1" src="./img/nccf_logo.png" alt="image">
+                    <img class="img2" src="./img/nysc_logo.png" alt="image" srcset="">
+                </div>
+                <div class="text">
+                    <h1>NCCF RIVERS STATE CHAPTER</h1>
+                </div>
+            </div>
+            <div class="footer_links">
+                <ul class="menu">
+                    <li class="menu_list"><a href="/index.html" class="menu_links active">HOME</a></li>
+                    <li class="menu_list"><a href="/about.html" class="menu_links">ABOUT US</a></li>
+                    <li class="menu_list"><a href="/executive.html" class="menu_links">EXCOS</a></li>
+                    <li class="menu_list"><a href="/units.html" class="menu_links">UNITS</a></li>
+                    <li class="menu_list"><a href="/zone.html" class="menu_links">ZONES</a></li>
+                    <li class="menu_list"><a href="#" class="menu_links">EVENTS</a></li>
+                    <li class="menu_list"><a href="/contact.html" class="menu_links">CONTACT US</a></li>
+
+                </ul>
+                <div class="contact">
+                    <p class="cont_us">CONTACT US</p>
+                    <p>Email: info@nccfrivers.org</p>
+                    <p>Phone: (+234) 803 631 8551</p>
+                    <p>Address: 206A, Ordinance Road, Trans-Amadi, Port Harcourt</p>
+                </div>
+                <div class="socials">
+                    <a href="https://www.instagram.com/nccf_rivers/">
+                        <div class="social_link">
+                            <img src="./img/instagram_colored.png" alt="image" srcset="">
+                            <p>Instagram</p>
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/NCCFRIVERS">
+                        <div class="social_link">
+                            <img src="./img/facebook_colored.png" alt="image" srcset="">
+                            <p>Facebook</p>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCWcwxylJ_jGzSX-w9X2-8Wg">
+                        <div class="social_link">
+                            <img src="./img/youtube-icon_colored.png" alt="image" srcset="">
+                            <p>YouTube</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <span class="footer_line"></span>
+
+            <p class="reserved"><span>&copy</span> NCCF Rivers State Chapter | All Rights Reserved </p>
+        </section>
+    </footer>
 
     <script src="./js/custom.js"></script>
     <script src="./script.js"></script>
+    <script src="./dist/bundle.js"></script>
     <script src="./swiper/package/swiper-bundle.js"></script>
+
 
     <script>
         const swiper1 = new Swiper('.swiper1', {
@@ -473,30 +507,6 @@
             },
         });
 
-    </script>
-    // THIS IS A NEW SCRIPT FOR FIREBASE SETUP
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-            apiKey: "AIzaSyC9w6imDfnQff9aFBUibobWYu9-DB3PZC4",
-            authDomain: "nccf-rivers.firebaseapp.com",
-            projectId: "nccf-rivers",
-            storageBucket: "nccf-rivers.appspot.com",
-            messagingSenderId: "541456928146",
-            appId: "1:541456928146:web:46cb798925a19e045a054b",
-            measurementId: "G-1YD27KB2CL"
-        };
-
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
     </script>
 </body>
 

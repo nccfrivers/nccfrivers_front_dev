@@ -68,26 +68,25 @@ class NavFooter extends HTMLElement {
                 <div class="contact">
                     <p class="cont_us">CONTACT US</p>
                     <p>Email: info@nccfrivers.org</p>
-                    <p>Phone: (+234) 9023859483</p>
+                    <p>Phone: (+234) 803 631 8551</p>
                     <p>Address: 206A, Ordinance Road, Trans-Amadi, Port Harcourt</p>
                 </div>
                 <div class="socials">
-                    <div class="social_link">
-                        <img src="./img/instagram_colored.png" alt="image" srcset="">
+                <a href="https://www.instagram.com/nccf_rivers/"> <div class="social_link">
+                       <img src="./img/instagram_colored.png" alt="image" srcset="">
                         <p>Instagram</p>
+                        </div>
+                        </a>
+                        <a href="https://www.facebook.com/NCCFRIVERS"> <div class="social_link">
+                    <img src="./img/facebook_colored.png" alt="image" srcset=""> 
+                    <p>Facebook</p>
                     </div>
-                    <div class="social_link">
-                        <img src="./img/facebook_colored.png" alt="image" srcset="">
-                        <p>Facebook</p>
-                    </div>
-                    <div class="social_link">
-                        <img src="./img/twitter_colored.png" alt="image" srcset="">
-                        <p>Twitter</p>
-                    </div>
-                    <div class="social_link">
-                        <img src="./img/youtube-icon_colored.png" alt="image" srcset="">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCWcwxylJ_jGzSX-w9X2-8Wg"> <div class="social_link">
+                        <img src="./img/youtube-icon_colored.png" alt="image" srcset=""> 
                         <p>YouTube</p>
-                    </div>
+                        </div>
+                        </a>
                 </div>
             </div>
 

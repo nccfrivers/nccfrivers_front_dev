@@ -2,15 +2,15 @@ body {
     background-color: #fff;
 }
 
-.baptismal {
+.blogs {
     background-color: #fff;
 }
 
-.baptismal .title {
+.blogs .title {
     padding-top: 204px;
 }
 
-.baptismal .title h1 {
+.blogs .title h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -19,40 +19,40 @@ body {
     color: #000000;
 }
 
-.baptismal .title h1::before {
+.blogs .title h1::before {
     content: '';
     border: 2px solid #000000;
     width: 199px;
     display: block;
 }
 
-.baptismal .title h1::after {
+.blogs .title h1::after {
     content: '';
     border: 2px solid #000000;
     width: 120px;
     display: block;
 }
 
-.baptismal .content {
+.blogs .content {
     padding-left: 70px;
     padding-top: 52px;
     padding-right: 50px;
     padding-bottom: 50px;
 }
 
-.baptismal .content img {
+.blogs .content img {
     max-width: 1129px;
     width: 100%;
 }
 
-.baptismal .content .text {
+.blogs .content .text {
     display: flex;
     flex-direction: column;
     gap: 40px;
     padding-top: 20.04px;
 }
 
-.baptismal .content .text p {
+.blogs .content .text p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;

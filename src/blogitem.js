@@ -2,7 +2,6 @@ import { getFirestore, collection, getDoc, doc } from 'firebase/firestore';
 
 // initialize firebase db and collection
 const db = getFirestore();
-const blogCol = collection(db, 'blog')
 let idValue = '';
 let finalList = []
 
@@ -22,10 +21,22 @@ function getABlogPost() {
         console.log("Now the list")
         console.log(finalList)
         snapshot.data()['body'].forEach((oneBlog) => {
-            let totalBlogBody = `
-            <p>${oneBlog}</p>
-            &nbsp;
+            console.log("Checking")
+            let totalBlogBody = ``;
+            if (snapshot.data()['body'][snapshot.data()['body'].length - 1] == oneBlog) {
+                console.log("Last one")
+                totalBlogBody = `
+                <p>${oneBlog}</p>
+                <br>
+                <br>
+                `
+            } else {
+                console.log("Not Last one")
+                totalBlogBody = `
+                <p>${oneBlog}</p>
+            <br>
             `
+            }
             document.getElementById('singleblogbody').innerHTML += totalBlogBody
             console.log('Counts ' + oneBlog)
 

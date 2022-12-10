@@ -45,5 +45,17 @@ function reveal() {
 
 window.addEventListener("scroll", reveal);
 
+/* Overlay */
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  if (document.getElementById("overlay").style.display == "none") {
+    console.log("Nothing")
+  }
+  document.getElementById("overlay").style.display = "none";
+}
+
 
 

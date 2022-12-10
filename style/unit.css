@@ -1,20 +1,20 @@
-
 .units {
     background-color: #fff;
 }
+
 .cards {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding-bottom: 50px;
 }
+
 .card {
     width: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
-    gap: 50px;
 }
+
 .card .bg {
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,47 +23,68 @@
     justify-content: center;
     align-items: center;
     height: 300px;
-    margin-bottom: 90px;
+    margin-bottom: 130px;
+    background-blend-mode: multiply;
+    background-color: #868686;
 }
+
 .cards .card .publicity {
     background-image: url(../img/unit/banner/publicity-big.jpg);
 }
-.cards .card  .choir {
+
+.cards .card .choir {
     background-image: url(../img/unit/banner/choir-big.JPG);
 }
-.cards .card  .tos {
+
+.cards .card .tos {
     background-image: url(../img/unit/banner/tos.JPG);
 }
-.cards .card  .medical {
+
+.cards .card .medical {
     background-image: url(../img/unit/banner/medical-big.JPG);
 }
-.cards .card  .ushering {
+
+.cards .card .ushering {
     background-image: url(../img/unit/banner/tos.JPG);
 }
-.cards .card  .drama {
+
+.cards .card .drama {
     background-image: url(../img/unit/banner/drama-big.JPG);
 }
-.cards .card  .ventures {
+
+.cards .card .ventures {
     background-image: url(../img/unit/banner/ventures-big.JPG);
 }
-.cards .card  .evangelism {
+
+.cards .card .evangelism {
     background-image: url(../img/unit/banner/evangelism-big.jpg);
 }
-.cards .card  .prayer {
+
+.cards .card .prayer {
     background-image: url(../img/unit/banner/prayer-big.jpg);
 }
-.cards .card  .bible {
+
+.cards .card .bible {
     background-image: url(../img/unit/banner/bible-study-big.jpg);
 }
+
+.card .drawin circle {
+    fill: #870000;
+    display: flex;
+    position: absolute;
+}
+
 .card .bg h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
     font-size: 52px;
     line-height: 78px;
+    text-align: center;
     color: #FFFFFF;
     text-align: center;
 }
+
 .card .text {
     display: flex;
     flex-direction: column;
@@ -72,15 +93,18 @@
     position: relative;
     /* padding-top: 30px; */
 }
+
 .card .text .logo {
-    width: 350px;
+    width: 300px;
     position: absolute;
     top: -185px;
     top: -260px;
 }
+
 .card .text .logo img {
     width: 100%;
 }
+
 .card .text .body {
     font-family: 'Poppins';
     font-style: normal;
@@ -90,15 +114,17 @@
     color: #000000;
     text-align: center;
 }
+
 .card .text .body span {
     font-weight: bold;
 }
+
 .meeting_time {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 48px;
+    align-items: center;
     color: #000000;
 }
 
@@ -111,6 +137,7 @@
     .card .bg {
         margin-bottom: 10px;
     }
+
     .card .text .logo {
         width: 250px;
         top: -150px;

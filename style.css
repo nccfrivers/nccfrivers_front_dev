@@ -380,7 +380,6 @@ nav {
 .address_container .content .text .author {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     width: 100%;
     gap: 15px;
     padding-top: 20px;

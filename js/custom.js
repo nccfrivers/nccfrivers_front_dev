@@ -22,11 +22,11 @@ class NavHeader extends HTMLElement {
                                     <li class="menu_list"><a href="/executive.html" class="menu_links">EXCOS</a></li>
                                     <li class="menu_list"><a href="/units.html" class="menu_links">UNITS</a></li>
                                     <li class="menu_list"><a href="/zone.html" class="menu_links">ZONES</a></li>
-                                    <li class="menu_list"><a href="#" class="menu_links">EVENTS</a></li>
+                                    
                                     <li class="menu_list"><a href="/contact.html" class="menu_links">CONTACT US</a></li>
                                 </ul>
                                 <div class="donate">
-                                    <a href="" class="donate_btn">DONATE</a>
+                                    <a href="/donate.html" class="donate_btn">DONATE</a>
                                 </div>
                             </div>
                             <div class="nav-close" id="nav-close">
@@ -61,7 +61,7 @@ class NavFooter extends HTMLElement {
                     <li class="menu_list"><a href="/executive.html" class="menu_links">EXCOS</a></li>
                     <li class="menu_list"><a href="/units.html" class="menu_links">UNITS</a></li>
                     <li class="menu_list"><a href="/zone.html" class="menu_links">ZONES</a></li>
-                    <li class="menu_list"><a href="#" class="menu_links">EVENTS</a></li>
+                    
                     <li class="menu_list"><a href="/contact.html" class="menu_links">CONTACT US</a></li>
                     
                 </ul>

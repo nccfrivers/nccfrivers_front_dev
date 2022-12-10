@@ -63,7 +63,7 @@ button:hover {
     border: 1px solid #04560C;
 }
 
-.denote_content h2 {
+.donate_content h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -72,43 +72,43 @@ button:hover {
     align-self: flex-start;
     padding-bottom: 30px;
 }
-.denote_content {
+.donate_content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.denote_content .images-cont {
+.donate_content .images-cont {
     display: flex;
     gap: 2%;
     width: 100%;
 }
-.denote_content .images-cont .images, .denote_content .images-cont .img-big {
+.donate_content .images-cont .images, .donate_content .images-cont .img-big {
     width: 50%;
 }
-.denote_content .images-cont .images {
+.donate_content .images-cont .images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2%;
     align-items: stretch;
 }
-.denote_content .images-cont .images img {
+.donate_content .images-cont .images img {
     width: 100%;
 }
-.cds .denote_content .cds_images_cont {
+.cds .donate_content .cds_images_cont {
     display: grid;
     position: relative;
     width: 100%;
     gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
-.cds .denote_content .image-cont {
+.cds .donate_content .image-cont {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 15px;
 }
-.cds .denote_content .image-cont .image {
-    background-image: url(../img/denote_img/cds_big.png);
+.cds .donate_content .image-cont .image {
+    background-image: url(../img/donate_img/cds_big.png);
     width: 100%;
     background-size: cover;
     height: 282px;
@@ -118,14 +118,14 @@ button:hover {
     overflow: hidden;
     background-position: center;
 }
-.cds .denote_content .image-cont .image:hover {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/denote_img/cds_big.png);
+.cds .donate_content .image-cont .image:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/donate_img/cds_big.png);
     background-size: cover;
 }
-.cds .denote_content .image-cont .image:hover p{
+.cds .donate_content .image-cont .image:hover p{
     top: 0px;
 }
-.cds .denote_content .image-cont .image p {
+.cds .donate_content .image-cont .image p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -141,7 +141,7 @@ button:hover {
     top: 200px;
     position: relative;
 }
-.cds .denote_content .image-cont .title {
+.cds .donate_content .image-cont .title {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
@@ -153,7 +153,7 @@ button:hover {
 .note {
     padding-bottom: 75px;
 }
-.note .denote_content p {
+.note .donate_content p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -161,7 +161,7 @@ button:hover {
     text-align: center;
     color: #444444;
 }
-.note .denote_content h2 {
+.note .donate_content h2 {
     align-self: center;
     padding: 20px;
     text-align: center;
@@ -169,12 +169,12 @@ button:hover {
 
 
 @media only screen and (max-width: 768px) {
-    .denote_content .images-cont {
+    .donate_content .images-cont {
         justify-content: center;
         flex-wrap: wrap;
         gap: 10px;
     }
-    .denote_content .images-cont .images, .denote_content .images-cont .img-big {
+    .donate_content .images-cont .images, .donate_content .images-cont .img-big {
         width: 100%;
     }
     .support .support_content {

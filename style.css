@@ -82,6 +82,10 @@ ul {
     background-color: transparent;
     color: #FFF;
 }
+.donate_btn:hover {
+    color: var(--primary-color30);
+}
+
 
 /* resuables */
 
@@ -166,6 +170,9 @@ nav {
     line-height: 24px;
     color: #FFFFFF;
 }
+.menu_links:hover {
+    color: var(--primary-color30);
+}
 
 .menu_links.active {
     color: var(--primary-color30);
@@ -186,6 +193,7 @@ nav {
     .back-video {
         width: 100%;
         height: auto;
+        top: 60px;
     }
 }
 
@@ -199,7 +207,7 @@ nav {
 .welcome_page {
     height: auto;
     padding-top: 117px;
-    padding-bottom: 300px;
+    padding-bottom: 190px;
     width: 100%;
 }
 

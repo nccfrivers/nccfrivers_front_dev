@@ -34,7 +34,7 @@ getDocs(contactCol).then((snapshot) => {
     })
 
 //? Adding a document (CHANGE THIS LINK TO THE ORIGINAL ONE)
-if (document.URL == 'https://jeremiahseun-zany-bassoon-vrv7j6qrr4jfp44q-5500.preview.app.github.dev/contact.html') {
+if (document.URL.endsWith == 'nccfrivers.org/contact.html') {
     const addContactForm = document.getElementById("contactusform")
 
     addContactForm.addEventListener("submit", (e) => {

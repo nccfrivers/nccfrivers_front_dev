@@ -24,6 +24,22 @@
     /* Add a pointer on hover */
 }
 
+.accountdetails .box .content {
+    gap: 0px;
+}
+
+.accountdetails .box .content h1 {
+    font-size: 1.5em;
+}
+
+.accountdetails .box .content h2 {
+    font-size: 1.3em;
+}
+
+.accountdetails .box .content h3 {
+    font-size: 1.0em;
+}
+
 .accountdetails {
     box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
     align-items: center;
@@ -31,7 +47,9 @@
 }
 
 .accountdetails .box {
-    margin: 99px;
+    margin: 99px auto;
+    max-width: 80%;
+    width: 100%;
     background-color: white;
     z-index: 2;
     display: flex;
@@ -59,7 +77,7 @@
 .accountdetails .box .content {
     text-align: center;
     font-family: 'Poppins';
-    padding: 40px;
+    padding: 30px;
     align-items: center;
     align-self: center;
 
@@ -519,13 +537,18 @@ button:hover {
         }
 
         .support .support_content .img img {
-            width: auto;
+            width: 100%;
             align-items: center;
         }
 
         .support .support_content .img .img2 {
-            display: contents;
+            display: none;
 
+        }
+
+        .support .support_content .img {
+            width: 100%;
+            justify-content: center;
         }
     }
 

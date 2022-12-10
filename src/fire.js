@@ -34,7 +34,7 @@ getDocs(contactCol).then((snapshot) => {
     })
 
 //? Adding a document (CHANGE THIS LINK TO THE ORIGINAL ONE)
-if (document.URL.endsWith == 'nccfrivers.org/contact.html') {
+if (document.URL.includes == 'nccfrivers.org/contact.html') {
     const addContactForm = document.getElementById("contactusform")
 
     addContactForm.addEventListener("submit", (e) => {

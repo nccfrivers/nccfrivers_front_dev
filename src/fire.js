@@ -33,10 +33,8 @@ getDocs(contactCol).then((snapshot) => {
         console.log(err.message)
     })
 
-//? Adding a document (CHANGE THIS LINK TO THE ORIGINAL ONE)
-if (document.URL.includes == 'nccfrivers.org/contact.html') {
-    const addContactForm = document.getElementById("contactusform")
 
+    const addContactForm = document.getElementById("contactusform")
     addContactForm.addEventListener("submit", (e) => {
         e.preventDefault()
         console.log(addContactForm.name.value)
@@ -59,4 +57,3 @@ if (document.URL.includes == 'nccfrivers.org/contact.html') {
                 console.error("Error adding document: ", err);
             })
     });
-}

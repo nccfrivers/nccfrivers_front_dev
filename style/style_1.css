@@ -64,7 +64,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: auto;
     align-self: center;
     padding: 0px 20px;
 }
@@ -113,7 +113,6 @@
     flex-direction: column;
     gap: 30px;
     padding: 0px 14px;
-    left: 40px;
     position: relative;
 }
 
@@ -336,11 +335,6 @@
 }
 
 /* -------- fellowship */
-
-.body .fellowship {
-    /* padding-top: 78px; */
-}
-
 .body .fellowship h2 {
     max-width: 90%;
     margin: 0 auto;

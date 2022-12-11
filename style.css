@@ -355,6 +355,8 @@ nav {
     padding: 20px;
     max-width: 700px;
     width: 100%;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
 }
 
 .address_container .content .text h2 {
@@ -1183,7 +1185,7 @@ footer .container .title .text h1 {
     .address_container .content img {
         transform: scale(1);
         height: fit-content;
-        width: auto;
+        width: 100%;
     }
 
     .address_container .content .text {

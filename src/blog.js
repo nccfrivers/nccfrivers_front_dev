@@ -1,4 +1,9 @@
 import { getFirestore, query, orderBy, collection, getDocs } from 'firebase/firestore';
+import { firebaseConfig,initializeApp } from './initialize'
+
+
+
+initializeApp(firebaseConfig);
 
 // initialize firebase db and collection
 const db = getFirestore();

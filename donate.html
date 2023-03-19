@@ -8,7 +8,7 @@
     This is the Cave of Adullam, where men are built for the outside world.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NCCF Rivers - Donate</title>
-    <link rel="apple-touch-icon" href="img/nccf_lo_img.png"/>
+    <link rel="apple-touch-icon" href="img/nccf_lo_img.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="img/nccf_lo_img.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="./style.css">
@@ -19,7 +19,57 @@
 <body>
 
     <!-- Header -->
-    <nav-header></nav-header>
+    <header>
+        <nav>
+            <div class="nav_container container">
+                <a href="./index.html">
+                    <div class="logo">
+                        <img class="img1" src="./img/nccf_logo.png" alt="NCCF logo">
+                        <img class="img2" src="./img/nysc_logo.png" alt="NYSC logo" srcset="">
+                    </div>
+                </a>
+                <!-- toggle btn -->
+                <div class="nav-toggle" id="nav-toggle">
+                    <img class="menu" src="./icon/Menu2.svg" alt="image">
+                </div>
+                <div class="nav_menu_item" id="nav_menu_item">
+                    <div class="nav_menu">
+                        <ul class="menu">
+                            <li class="menu_list"><a href="/index.html" class="menu_links">HOME</a></li>
+                            <li class="menu_list"><a href="/about.html" class="menu_links">ABOUT US</a></li>
+                            <li class="menu_list"><a href="/executive.html" class="menu_links">EXCOS</a></li>
+                            <li class="menu_list"><a href="/units.html" class="menu_links">UNITS</a></li>
+                            <li class="menu_list"><a href="/zone.html" class="menu_links">ZONES</a></li>
+
+                            <li class="menu_list"><a href="/contact.html" class="menu_links">CONTACT US</a></li>
+                        </ul>
+                        <div class="donate">
+                            <a href="#" class="donate_btn active">DONATE</a>
+                        </div>
+                    </div>
+                    <div class="nav-close" id="nav-close">
+                        <img src="./icon/close.svg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="overlay" class="overlay accountdetails" onclick="off()">
+        <div class="box">
+            <div class="topbox"></div>
+            <div class="content">
+                <h1>NCCF PROJECT ACCOUNT</h1>
+                <h2 class="price">0037800421</h2>
+                <h3>GUARANTY TRUST BANK</h3>
+            </div>
+            <div class="content">
+                <h1>NCCF RUGGED ACCOUNT</h1>
+                <h2 class="price">0037800414</h2>
+                <h3>GUARANTY TRUST BANK</h3>
+            </div>
+        </div>
+    </div>
 
     <section class="home donate_home">
         <div class="bd"></div>
@@ -35,110 +85,128 @@
         <div class="container">
             <div class="support_content">
                 <div class="img">
-                    <img src="./img/denote_img/donate_img_1.png" alt="" srcset="">
-                    <img class="img2" src="./img/denote_img/donate_img_2.png" alt="" srcset="">
+                    <img src="./img/donate_img/donate_img_1.png" alt="" srcset="">
+                    <img class="img2" src="./img/donate_img/donate_img_2.png" alt="" srcset="">
                 </div>
                 <div class="text">
                     <h1>Your Support is really powerful</h1>
-                    <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.</p>
-                    <button class="btn">Give</button>
+                    <p>The secret to happiness lies in helping others. Never underestimate the difference YOU can make
+                        in the lives of the poor, the abused and the helpless.</p>
+                    <button class="btn" onclick="on()">Give</button>
                 </div>
             </div>
         </div>
     </section>
+    <div class="gapspace"></div>
 
     <section class="health">
         <div class="container">
-            <div class="denote_content">
+            <div class="donate_content">
                 <h2>HEALTH is WEALTH, so let's start there.</h2>
                 <div class="images-cont">
-                    <img class="img-big" src="./img/denote_img/donate_img_big.png" alt="" srcset="">
+                    <img class="img-big" src="./img/donate_img/donate_img_big.png" alt="" srcset="">
                     <div class="images">
-                        <img src="./img/denote_img/donate_img_4.png" alt="" srcset="">
-                        <img src="./img/denote_img/donate_img_4.png" alt="" srcset="">
-                        <img src="./img/denote_img/donate_img_4.png" alt="" srcset="">
-                        <img src="./img/denote_img/donate_img_4.png" alt="" srcset="">
+                        <img src="./img/donate_img/donate_img_4.png" alt="" srcset="">
+                        <img src="./img/donate_img/donate_img_4.png" alt="" srcset="">
+                        <img src="./img/donate_img/donate_img_4.png" alt="" srcset="">
+                        <img src="./img/donate_img/donate_img_4.png" alt="" srcset="">
                     </div>
                 </div>
-                <button class="btn">Give</button>
+                <button class="btn" onclick="on()">Give</button>
             </div>
         </div>
     </section>
 
     <section class="health">
         <div class="container">
-            <div class="denote_content">
+            <div class="donate_content">
                 <h2>Community Development Service (CDS)</h2>
                 <div class="images-cont">
-                    <img class="img-big" src="./img/denote_img/cds_big.png" alt="" srcset="">
+                    <img class="img-big" src="./img/donate_img/cds_big.png" alt="" srcset="">
                     <div class="images">
-                        <img src="./img/denote_img/donate_img_1.png" alt="" srcset="">
-                        <img src="./img/denote_img/cds_1.png" alt="" srcset="">
-                        <img src="./img/denote_img/cds_2.png" alt="" srcset="">
-                        <img src="./img/denote_img/donate_img_4.png" alt="" srcset="">
+                        <img src="./img/donate_img/donate_img_1.png" alt="" srcset="">
+                        <img src="./img/donate_img/cds_1.png" alt="" srcset="">
+                        <img src="./img/donate_img/cds_2.png" alt="" srcset="">
+                        <img src="./img/donate_img/donate_img_4.png" alt="" srcset="">
                     </div>
                 </div>
-                <button class="btn">Give</button>
+                <button class="btn" onclick="on()">Give</button>
             </div>
         </div>
     </section>
 
     <section class="cds">
         <div class="container">
-            <div class="denote_content">
+            <div class="donate_content">
                 <h2>And many more...</h2>
                 <div class="cds_images_cont">
-                    <div class="image-cont">
+                    <div class="image-cont" onclick="on()">
                         <div class="image">
-                            <a href=""><p>Denote</p></a>
+                            <a href="">
+                                <p>Donate</p>
+                            </a>
                         </div>
                         <p class="title">Rural Rugged Evangelism</p>
                     </div>
-                    <div class="image-cont">
+                    <div class="image-cont" onclick="on()">
                         <div class="image">
-                            <a href=""><p>Denote</p></a>
+                            <p>Donate</p>
                         </div>
                         <p class="title">Orientation Camp</p>
                     </div>
-                    <div class="image-cont">
+                    <div class="image-cont" onclick="on()">
                         <div class="image">
-                            <a href=""><p>Denote</p></a>
+                            <a href="">
+                                <p>Donate</p>
+                            </a>
                         </div>
                         <p class="title">Family House</p>
                     </div>
-                    <div class="image-cont">
+                    <div class="image-cont" onclick="on()">
                         <div class="image">
-                            <a href=""><p>Denote</p></a>
+                            <a href="">
+                                <p>Donate</p>
+                            </a>
                         </div>
                         <p class="title">State Bus</p>
                     </div>
-                    <div class="image-cont">
+                    <div class="image-cont" onclick="on()">
                         <div class="image">
-                            <a href=""><p>Denote</p></a>
+                            <a href="">
+                                <p>Donate</p>
+                            </a>
                         </div>
                         <p class="title">Sound System / TOS Unit</p>
                     </div>
-                    <div class="image-cont">
+                    <div class="image-cont" onclick="on()">
                         <div class="image">
-                            <a href=""><p>Denote</p></a>
+                            <a href="">
+                                <p>Donate</p>
+                            </a>
                         </div>
                         <p class="title">Kitchen / Welfare</p>
                     </div>
-                    <div class="image-cont">
+                    <div class="image-cont" onclick="on()">
                         <div class="image">
-                            <a href=""><p>Denote</p></a>
+                            <a href="">
+                                <p>Donate</p>
+                            </a>
                         </div>
                         <p class="title">State Conference</p>
                     </div>
-                    <div class="image-cont">
+                    <div class="image-cont" onclick="on()">
                         <div class="image">
-                            <a href=""><p>Denote</p></a>
+                            <a href="">
+                                <p>Donate</p>
+                            </a>
                         </div>
                         <p class="title">Medical</p>
                     </div>
-                    <div class="image-cont">
+                    <div class="image-cont" onclick="on()">
                         <div class="image">
-                            <a href=""><p>Denote</p></a>
+                            <a href="">
+                                <p>Donate</p>
+                            </a>
                         </div>
                         <p class="title">Others</p>
                     </div>
@@ -149,17 +217,72 @@
 
     <section class="note">
         <div class="container">
-            <div class="denote_content">
+            <div class="donate_content">
                 <h2>Let us come together and make a difference.</h2>
-                <p>We believe that we can reach more people, make progress and expand the work of work in our sphere. We need you to make a donation today. We can’t wait to see receive your donations. God bless you!</p>
-                <button class="btn">Give</button>
+                <p>We believe that we can reach more people, make progress and expand the work of work in our sphere. We
+                    need you to make a donation today. We can’t wait to see receive your donations. God bless you!</p>
+                <button class="btn" onclick="on()">Give</button>
             </div>
         </div>
     </section>
-    
+
 
     <!-- footer -->
-    <nav-footer></nav-footer>
+    <footer>
+        <section class="footer_container container">
+            <div class="title">
+                <div class="logo">
+                    <img class="img1" src="./img/nccf_logo.png" alt="image">
+                    <img class="img2" src="./img/nysc_logo.png" alt="image" srcset="">
+                </div>
+                <div class="text">
+                    <h1>NCCF RIVERS STATE CHAPTER</h1>
+                </div>
+            </div>
+            <div class="footer_links">
+                <ul class="menu">
+                    <li class="menu_list"><a href="/index.html" class="menu_links">HOME</a></li>
+                    <li class="menu_list"><a href="/about.html" class="menu_links">ABOUT US</a></li>
+                    <li class="menu_list"><a href="/executive.html" class="menu_links">EXCOS</a></li>
+                    <li class="menu_list"><a href="/units.html" class="menu_links">UNITS</a></li>
+                    <li class="menu_list"><a href="/zone.html" class="menu_links">ZONES</a></li>
+
+                    <li class="menu_list"><a href="/contact.html" class="menu_links">CONTACT US</a></li>
+
+                </ul>
+                <div class="contact">
+                    <p class="cont_us">CONTACT US</p>
+                    <p>Email: info@nccfrivers.org</p>
+                    <p>Phone: (+234) 803 631 8551</p>
+                    <p>Address: 206A, Ordinance Road, Trans-Amadi, Port Harcourt</p>
+                </div>
+                <div class="socials">
+                    <a href="https://www.instagram.com/nccf_rivers/">
+                        <div class="social_link">
+                            <img src="./img/instagram_colored.png" alt="image" srcset="">
+                            <p>Instagram</p>
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/NCCFRIVERS">
+                        <div class="social_link">
+                            <img src="./img/facebook_colored.png" alt="image" srcset="">
+                            <p>Facebook</p>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCWcwxylJ_jGzSX-w9X2-8Wg">
+                        <div class="social_link">
+                            <img src="./img/youtube-icon_colored.png" alt="image" srcset="">
+                            <p>YouTube</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <span class="footer_line"></span>
+
+            <p class="reserved"><span>&copy</span> NCCF Rivers State Chapter | All Rights Reserved </p>
+        </section>
+    </footer>
 
     <script src="./js/custom.js"></script>
     <script src="./script.js"></script>

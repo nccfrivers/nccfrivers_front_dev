@@ -1,0 +1,156 @@
+
+
+
+.blog_home {
+    background: linear-gradient(0deg, rgba(8, 18, 9, 0.98), rgba(8, 18, 9, 0.98)), url(../img/blog_img/blog_main_img.png);
+}
+.trending, .blogs_item {
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.trending .context {
+    padding-top: 65px;
+}
+.trending .context h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    color: #000000;
+}
+.trending .context .trend_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+.trending .context .trend_body img {
+    max-width: 500px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.trending .context .trend_body .text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    gap: 15px;
+}
+.trending .context .trend_body .text h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: justify;
+    color: #000000;
+}
+.trending .context .trend_body .text .author {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #B7B7B7;
+}
+.trending .context .trend_body .text .details {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    color: #000000;
+}
+.trending .context .trend_body .text button {
+    border: none;
+    outline: none;
+    background: #033407;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 15px;
+    align-self: flex-end;
+}
+
+.blogs_item .blog_items {
+    display: grid;
+    gap: 50px;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 60px 10px 0px;
+}
+.blogs_item .blog_items .blog_item {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px;
+}
+.blogs_item .blog_items .blog_item .blog_img {
+    width: 100%;
+}
+.blogs_item .blog_items .blog_item .text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+    padding: 25px 0px 20px;
+}
+.blogs_item .blog_items .blog_item .icons {
+    padding-bottom: 20px;
+}
+.blogs_item .blog_items .blog_item .icons img {
+    width: 20px;
+}
+.blogs_item .blog_items .blog_item button {
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #F2CB54;
+    background-color: transparent;
+    width: max-content;
+}
+
+@media only screen and (max-width: 950px) {
+    .blogs_item .blog_items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: 900px) {
+    .trending .context .trend_body {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .trending .context .trend_body .text {
+        max-width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    .blogs_item .blog_items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .home .content p,
+    .trending .context .trend_body .text .details,
+    .trending .context .trend_body .text button {
+        font-size: 16px;
+    }
+    .home .content h1{
+        font-size: 40px;
+    }
+    .trending .context .trend_body .text h3,
+    .trending .context h2 {
+        font-size: 20px;
+    }
+}

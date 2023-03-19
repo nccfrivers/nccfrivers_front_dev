@@ -42,7 +42,7 @@ ul {
     background-color: #FFF;
     color:  var(--primary-color30);
 }
-.denote_btn {
+.donate_btn {
     border: 2px solid #033E08;
     /* width: 190px;
     height: 57px; */
